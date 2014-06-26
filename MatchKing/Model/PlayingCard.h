@@ -8,7 +8,7 @@
 
 #import "Card.h"
 
-/*
+/**
  * Class describes a playing card having a suit and rank as contents.
  *
  */

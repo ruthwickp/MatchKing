@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-/*
+/**
  *  Class models a generic card used for any matching game.
  *
  */

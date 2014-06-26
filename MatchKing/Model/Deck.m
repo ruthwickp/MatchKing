@@ -19,7 +19,7 @@
 @implementation Deck
 
 
-/*
+/**
  * Makes sure card array is initialized.
  *
  */
@@ -31,7 +31,7 @@
     return _cards;
 }
 
-/*
+/**
  * Adds a card to the deck, either at the top or to the end.
  *
  * @param   card -- card to be added
@@ -48,7 +48,7 @@
     }
 }
 
-/*
+/**
  * Adds the card to the end of the deck.
  *
  * @param   card -- card to added
@@ -59,7 +59,7 @@
     [self addCard:card atTop:NO];
 }
 
-/*
+/**
  * Draws a random card from deck. If the deck is empty, a nil card is returned.
  * The drawn card is deleted from deck.
  *

@@ -1,5 +1,5 @@
 //
-//  PlayingCardDeck.h
+//  SetCardDeck.h
 //  MatchKing
 //
 //  Created by Ruthwick Pathireddy on 6/25/14.
@@ -9,10 +9,10 @@
 #import "Deck.h"
 
 /**
- * Models a deck of playing cards
+ * Model describes a deck of SetCards
  *
  */
 
-@interface PlayingCardDeck : Deck
+@interface SetCardDeck : Deck
 
 @end

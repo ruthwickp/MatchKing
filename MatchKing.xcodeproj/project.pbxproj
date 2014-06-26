@@ -26,6 +26,7 @@
 		7D890D6F195BAFF500CB99E5 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D890D6E195BAFF500CB99E5 /* PlayingCard.m */; };
 		7D890D72195BC46100CB99E5 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D890D71195BC46100CB99E5 /* PlayingCardDeck.m */; };
 		7D890D75195BC87500CB99E5 /* SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D890D74195BC87500CB99E5 /* SetCard.m */; };
+		7D890D78195BEA0900CB99E5 /* SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D890D77195BEA0900CB99E5 /* SetCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		7D890D71195BC46100CB99E5 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
 		7D890D73195BC87500CB99E5 /* SetCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCard.h; path = Model/SetCard.h; sourceTree = "<group>"; };
 		7D890D74195BC87500CB99E5 /* SetCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCard.m; path = Model/SetCard.m; sourceTree = "<group>"; };
+		7D890D76195BEA0900CB99E5 /* SetCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCardDeck.h; path = Model/SetCardDeck.h; sourceTree = "<group>"; };
+		7D890D77195BEA0900CB99E5 /* SetCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCardDeck.m; path = Model/SetCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +181,8 @@
 				7D890D71195BC46100CB99E5 /* PlayingCardDeck.m */,
 				7D890D73195BC87500CB99E5 /* SetCard.h */,
 				7D890D74195BC87500CB99E5 /* SetCard.m */,
+				7D890D76195BEA0900CB99E5 /* SetCardDeck.h */,
+				7D890D77195BEA0900CB99E5 /* SetCardDeck.m */,
 				7D890D6E195BAFF500CB99E5 /* PlayingCard.m */,
 				7D890D6B195B9AC000CB99E5 /* Deck.m */,
 				7D890D67195B91FB00CB99E5 /* Card.m */,
@@ -286,6 +291,7 @@
 				7D890D6F195BAFF500CB99E5 /* PlayingCard.m in Sources */,
 				7D890D6C195B9AC000CB99E5 /* Deck.m in Sources */,
 				7D890D75195BC87500CB99E5 /* SetCard.m in Sources */,
+				7D890D78195BEA0900CB99E5 /* SetCardDeck.m in Sources */,
 				7D890D3B195B8C5C00CB99E5 /* CardGameAppDelegate.m in Sources */,
 				7D890D41195B8C5C00CB99E5 /* CardGameViewController.m in Sources */,
 				7D890D72195BC46100CB99E5 /* PlayingCardDeck.m in Sources */,

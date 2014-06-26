@@ -8,7 +8,7 @@
 
 #import "Card.h"
 
-/*
+/**
  * Models a set card which has a number (1, 2, 3), symbol (diamond, 
  * ovals, squiggles), shading (solid, striped, open), and color (red,
  * green, purple).

@@ -11,7 +11,7 @@
 
 @implementation PlayingCardDeck
 
-/*
+/**
  * Overriding init method by adding a playing cards to the playing
  * card deck.
  *

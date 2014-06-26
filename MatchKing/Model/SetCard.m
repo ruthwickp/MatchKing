@@ -10,7 +10,7 @@
 
 @implementation SetCard
 
-/*
+/**
  * Overriden method matches cards based on the rules of Set.
  *
  * @param   otherCards -- cards to be matched
@@ -24,37 +24,97 @@
     // Checks array for two set cards
     if ([otherCards count] == 2) {
         id card1 = otherCards[0];
-        id card2 = otherCards[0];
+        id card2 = otherCards[1];
         if ([card1 isKindOfClass:[SetCard class]] && [card2 isKindOfClass:[SetCard class]]) {
             SetCard *firstCard = (SetCard *)card1;
             SetCard *secondCard = (SetCard *)card2;
             
-            // Check for matched numbers
-            if ([self cardMatch:firstCard andMatch:secondCard]) {
+            // Check for matched numbers, symbols, shading, and colors
+            if ([self matchNumbers:firstCard andMatch:secondCard] &&
+                [self matchSymbols:firstCard andMatch:secondCard] &&
+                [self matchShadings:firstCard andMatch:secondCard] &&
+                [self matchColors:firstCard andMatch:secondCard]) {
                 matchscore = 4;
             }
-            
         }
     }
-    
-    
     return matchscore;
 }
 
-/*
+
+#pragma mark - Matching Methods
+
+/**
+ * Matching methods return true is all three cards share the same
+ * property or if none of the cards share the same property.
  *
-- (BOOL)cardMatch:(SetCard *)firstCard andMatch:(SetCard *)secondCard
+ */
+
+- (BOOL)matchNumbers:(SetCard *)firstCard andMatch:(SetCard *)secondCard
 {
-    BOOL cardsMatch = NO;
-    
-    
-    return cardsMatch;
+    if (self.number == firstCard.number) {
+        if (self.number == secondCard.number) {
+            return true;
+        }
+    }
+    else if (self.number != secondCard.number) {
+        if (firstCard.number != secondCard.number) {
+            return true;
+        }
+    }
+    return false;
 }
+
+- (BOOL)matchSymbols:(SetCard *)firstCard andMatch:(SetCard *)secondCard
+{
+    if ([self.symbol isEqualToString:firstCard.symbol]) {
+        if ([self.symbol isEqualToString:secondCard.symbol]) {
+            return true;
+        }
+    }
+    else if (![self.symbol isEqualToString:secondCard.symbol]) {
+        if (![firstCard.symbol isEqualToString:secondCard.symbol]) {
+            return true;
+        }
+    }
+    return false;
+}
+
+- (BOOL)matchShadings:(SetCard *)firstCard andMatch:(SetCard *)secondCard
+{
+    if ([self.shading isEqualToString:firstCard.shading]) {
+        if ([self.shading isEqualToString:secondCard.shading]) {
+            return true;
+        }
+    }
+    else if (![self.shading isEqualToString:secondCard.shading]) {
+        if (![firstCard.shading isEqualToString:secondCard.shading]) {
+            return true;
+        }
+    }
+    return false;
+}
+
+- (BOOL)matchColors:(SetCard *)firstCard andMatch:(SetCard *)secondCard
+{
+    if ([self.color isEqualToString:firstCard.color]) {
+        if ([self.color isEqualToString:secondCard.color]) {
+            return true;
+        }
+    }
+    else if (![self.color isEqualToString:secondCard.color]) {
+        if (![firstCard.color isEqualToString:secondCard.color]) {
+            return true;
+        }
+    }
+    return false;
+}
+
 
 
 #pragma mark - Validate Setters
 
-/*
+/**
  * Makes sure properties of set card contain valid values.
  *
  */
@@ -91,7 +151,7 @@
 
 #pragma mark - Class Methods
 
-/*
+/**
  * Returns valid properties for each category.
  *
  */

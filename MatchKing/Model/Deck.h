@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Card.h"
 
-/*
+/**
  * Class models a generic deck containing cards.
  *
  */
