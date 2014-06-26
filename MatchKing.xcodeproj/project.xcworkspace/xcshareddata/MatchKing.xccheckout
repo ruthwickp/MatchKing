@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CA70D873-D3AD-40FB-B27D-9963148D53EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MatchKing</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C223A824-AFD9-4A6F-B920-A2865A6F5CC2</key>
+		<string>https://github.com/ruthwickp/MatchKing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MatchKing.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C223A824-AFD9-4A6F-B920-A2865A6F5CC2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ruthwickp/MatchKing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C223A824-AFD9-4A6F-B920-A2865A6F5CC2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C223A824-AFD9-4A6F-B920-A2865A6F5CC2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MatchKing</string>
+		</dict>
+	</array>
+</dict>
+</plist>
