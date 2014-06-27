@@ -97,8 +97,8 @@
                                     <action selector="resetGameButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WPt-YE-SD4"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rkz-kS-vHh">
-                                <rect key="frame" x="46" y="30" width="160" height="216"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rkz-kS-vHh" customClass="PlayingCardView">
+                                <rect key="frame" x="80" y="78" width="160" height="216"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
