@@ -98,9 +98,184 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rkz-kS-vHh" customClass="PlayingCardView">
-                                <rect key="frame" x="99" y="128" width="123" height="175"/>
+                                <rect key="frame" x="20" y="20" width="50" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oJK-1H-EVk" appends="YES" id="Qia-Nb-tJR"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VeT-Xf-tSs" customClass="PlayingCardView">
+                                <rect key="frame" x="78" y="20" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="xDt-mb-CLk" appends="YES" id="pzm-h0-JPX"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VI6-bA-WdY" customClass="PlayingCardView">
+                                <rect key="frame" x="135" y="20" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hIq-GB-A8v" appends="YES" id="pxU-hd-JAA"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a0p-e4-ggc" customClass="PlayingCardView">
+                                <rect key="frame" x="192" y="20" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bu5-Ux-tmZ" appends="YES" id="7T7-6Q-tSL"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eq5-zO-J5b" customClass="PlayingCardView">
+                                <rect key="frame" x="250" y="20" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bML-i7-GSM" appends="YES" id="upD-0Y-HNh"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Kr-sW-E0i" customClass="PlayingCardView">
+                                <rect key="frame" x="20" y="101" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HSU-RA-ewc" appends="YES" id="VIV-0g-f5g"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6lP-Pf-qdp" customClass="PlayingCardView">
+                                <rect key="frame" x="78" y="101" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="KTf-Fw-Nyc" appends="YES" id="dOl-Gr-Yb4"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="feT-Iu-S5Z" customClass="PlayingCardView">
+                                <rect key="frame" x="135" y="101" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="5aV-De-XFD" appends="YES" id="aKt-cH-Tpt"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mnu-aw-IRY" customClass="PlayingCardView">
+                                <rect key="frame" x="192" y="101" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4XZ-ev-2gJ" appends="YES" id="iai-M7-ZJk"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4qA-zU-baq" customClass="PlayingCardView">
+                                <rect key="frame" x="250" y="101" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZNY-aE-U46" appends="YES" id="yhZ-ja-xSa"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QoD-WA-pnu" customClass="PlayingCardView">
+                                <rect key="frame" x="20" y="182" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wTr-xb-u1C" appends="YES" id="DAQ-0T-Cp9"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dr4-cS-kN1" customClass="PlayingCardView">
+                                <rect key="frame" x="78" y="182" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="r8m-pH-1Ls" appends="YES" id="zZ0-DF-dbe"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3C8-ot-fID" customClass="PlayingCardView">
+                                <rect key="frame" x="135" y="182" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4S7-KD-4kI" appends="YES" id="ZdA-jg-H35"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZP7-rH-0Zn" customClass="PlayingCardView">
+                                <rect key="frame" x="192" y="182" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HYR-LQ-Oat" appends="YES" id="5lf-aT-sF9"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1n4-at-Tad" customClass="PlayingCardView">
+                                <rect key="frame" x="250" y="182" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Ls2-LZ-HQe" appends="YES" id="Ayq-vo-dPM"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yF2-as-tRg" customClass="PlayingCardView">
+                                <rect key="frame" x="20" y="263" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ySg-i4-MBN" appends="YES" id="ebt-rp-PeQ"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q7U-6F-z6K" customClass="PlayingCardView">
+                                <rect key="frame" x="78" y="263" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="z8M-Eq-oK1" appends="YES" id="fbb-CA-9Yb"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h4u-RD-IGn" customClass="PlayingCardView">
+                                <rect key="frame" x="135" y="263" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="UWk-jr-JaO" appends="YES" id="GVY-Zx-92a"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fqk-WC-dcF" customClass="PlayingCardView">
+                                <rect key="frame" x="192" y="263" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3Zt-iK-Qx5" appends="YES" id="gnn-XK-KcF"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="COD-tz-ivQ" customClass="PlayingCardView">
+                                <rect key="frame" x="250" y="263" width="50" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="MsI-iU-obR" appends="YES" id="IiZ-JO-kwk"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -108,9 +283,53 @@
                     <tabBarItem key="tabBarItem" title="Playing Card Game" id="HUG-wO-NvT"/>
                     <connections>
                         <outlet property="scoreLabel" destination="WJj-te-mTI" id="9Qx-eu-m6M"/>
+                        <outletCollection property="playingCardsCollection" destination="Rkz-kS-vHh" id="XH5-Zo-nWx"/>
+                        <outletCollection property="playingCardsCollection" destination="VeT-Xf-tSs" id="9VY-TL-R9w"/>
+                        <outletCollection property="playingCardsCollection" destination="VI6-bA-WdY" id="Xf4-yq-mZg"/>
+                        <outletCollection property="playingCardsCollection" destination="a0p-e4-ggc" id="BmH-eu-KJ1"/>
+                        <outletCollection property="playingCardsCollection" destination="eq5-zO-J5b" id="Gpr-ji-cFg"/>
+                        <outletCollection property="playingCardsCollection" destination="3Kr-sW-E0i" id="zKl-vD-1gL"/>
+                        <outletCollection property="playingCardsCollection" destination="6lP-Pf-qdp" id="4DM-oM-697"/>
+                        <outletCollection property="playingCardsCollection" destination="feT-Iu-S5Z" id="SNc-JD-5eV"/>
+                        <outletCollection property="playingCardsCollection" destination="mnu-aw-IRY" id="i3K-k7-Fgh"/>
+                        <outletCollection property="playingCardsCollection" destination="4qA-zU-baq" id="U5G-uN-oDD"/>
+                        <outletCollection property="playingCardsCollection" destination="QoD-WA-pnu" id="BKj-sd-1L5"/>
+                        <outletCollection property="playingCardsCollection" destination="dr4-cS-kN1" id="ntP-xx-9tF"/>
+                        <outletCollection property="playingCardsCollection" destination="3C8-ot-fID" id="twf-h9-jhs"/>
+                        <outletCollection property="playingCardsCollection" destination="ZP7-rH-0Zn" id="db7-83-yU4"/>
+                        <outletCollection property="playingCardsCollection" destination="1n4-at-Tad" id="i9G-NY-19p"/>
+                        <outletCollection property="playingCardsCollection" destination="yF2-as-tRg" id="sE4-A0-AJV"/>
+                        <outletCollection property="playingCardsCollection" destination="Q7U-6F-z6K" id="k0P-UQ-yR5"/>
+                        <outletCollection property="playingCardsCollection" destination="h4u-RD-IGn" id="7qL-1v-4T8"/>
+                        <outletCollection property="playingCardsCollection" destination="fqk-WC-dcF" id="YQG-Fq-vVj"/>
+                        <outletCollection property="playingCardsCollection" destination="COD-tz-ivQ" id="3qL-In-z9D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="oJK-1H-EVk">
+                    <connections>
+                        <action selector="tapCard:" destination="vXZ-lx-hvc" id="FJM-Na-ySo"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="xDt-mb-CLk"/>
+                <tapGestureRecognizer id="hIq-GB-A8v"/>
+                <tapGestureRecognizer id="bu5-Ux-tmZ"/>
+                <tapGestureRecognizer id="bML-i7-GSM"/>
+                <tapGestureRecognizer id="HSU-RA-ewc"/>
+                <tapGestureRecognizer id="KTf-Fw-Nyc"/>
+                <tapGestureRecognizer id="5aV-De-XFD"/>
+                <tapGestureRecognizer id="4XZ-ev-2gJ"/>
+                <tapGestureRecognizer id="ZNY-aE-U46"/>
+                <tapGestureRecognizer id="wTr-xb-u1C"/>
+                <tapGestureRecognizer id="r8m-pH-1Ls"/>
+                <tapGestureRecognizer id="4S7-KD-4kI"/>
+                <tapGestureRecognizer id="HYR-LQ-Oat"/>
+                <tapGestureRecognizer id="Ls2-LZ-HQe"/>
+                <tapGestureRecognizer id="ySg-i4-MBN"/>
+                <tapGestureRecognizer id="z8M-Eq-oK1"/>
+                <tapGestureRecognizer id="UWk-jr-JaO"/>
+                <tapGestureRecognizer id="3Zt-iK-Qx5"/>
+                <tapGestureRecognizer id="MsI-iU-obR"/>
             </objects>
             <point key="canvasLocation" x="102" y="-278"/>
         </scene>

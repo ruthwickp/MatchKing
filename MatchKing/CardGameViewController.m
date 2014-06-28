@@ -44,6 +44,7 @@
 - (IBAction)resetGameButton:(UIButton *)sender
 {
     self.game = nil;
+    self.scoreLabel.text = [NSString stringWithFormat:@"Score: 0"];
     [self updateUI];
     
 }
