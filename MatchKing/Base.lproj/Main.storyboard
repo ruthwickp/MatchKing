@@ -98,7 +98,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rkz-kS-vHh" customClass="PlayingCardView">
-                                <rect key="frame" x="80" y="78" width="160" height="216"/>
+                                <rect key="frame" x="99" y="128" width="123" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
